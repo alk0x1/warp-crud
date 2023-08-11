@@ -1,8 +1,5 @@
 use warp::{Filter, Rejection, Reply};
 use super::controllers;  
-
-use controllers::user_controller;
-use controllers::place_controller;
 // Import other controllers as needed
 
 // Define your routes using the imported controllers

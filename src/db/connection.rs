@@ -12,6 +12,7 @@ pub async fn establish_connection() -> Result<tokio_postgres::Client, Error> {
 
     Ok(client)
 }
+
 pub async fn perform_query(client: &tokio_postgres::Client) -> Result<(), Error> {
     let rows = client
         .query("SELECT * FROM mytable", &[])

@@ -1,3 +1,3 @@
-fn place_controllers() {
+pub fn place_controllers() {
 
 }

@@ -1,2 +1,2 @@
-mod place_controllers;
-mod user_controllers;
+mod place_controller;
+mod user_controller;
